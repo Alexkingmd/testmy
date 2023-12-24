@@ -169,7 +169,7 @@ try{
 		}
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
 			console.log(color(` `,'magenta'))
-            console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
+            console.log(color(`💀Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
 			await delay(1999)
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
@@ -290,7 +290,7 @@ XeonLft = await getBuffer(ppuser)
 	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
+│「 𝗛𝗶 pn bot 👋 」
 └┬❖ 「  @${xeonName.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
    │✑  ${metadata.subject}

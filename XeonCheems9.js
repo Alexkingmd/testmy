@@ -1544,7 +1544,7 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
 ┌┤✑  ${xeonytimewisher} 😄
 │└────────────┈ ⳹
 │
-└─ 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊        
+└─ PRAVEEN-MD WHATSAPP BOT        
 │𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │𝗕𝗼𝘁 : ${global.botname}

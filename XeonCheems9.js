@@ -1539,50 +1539,43 @@ case 'alive': case 'panel': case 'list': case 'menu': case 'help': case '?': {
             let timestampe = speed()
             let latensie = speed() - timestampe
             xeonezy = `┌─❖
-│ Hi 👋 
-└┬❖  ${pushname} 
-┌┤✑  ${xeonytimewisher} 😄
-│└────────────┈ ⳹
-│
-└─ PRAVEEN-MD WHATSAPP BOT        
-│𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
-│𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
-│𝗕𝗼𝘁 : ${global.botname}
-│𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
-│𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
-│𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
-│𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
-│𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
-│
-└─ 𝙐𝙎𝙀𝙍 𝙄𝙉𝙁𝙊 
-│𝗡𝗮𝗺𝗲 : ${pushname}
-│𝗡𝘂𝗺𝗯𝗲𝗿 : @${me.split('@')[0]}
-│𝗣𝗿𝗲𝗺𝗶𝘂𝗺 : ${isPrem ? '✅' : `❌`}
-│
-└─ 𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 
+ Hello 😇  I AM ONLINE NOW
+  ${pushname} 
+  ${xeonytimewisher} 😄
+PRAVEEN-MD WHATSAPP BOT
+
+𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
+𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
+𝗕𝗼𝘁 : ${global.botname}
+𝗢𝘄𝗻𝗲𝗿 𝗡𝗼: ${ownernumber}
+𝗣𝗿𝗲𝗳𝗶𝘅 :  NO-PREFIX 
+𝗠𝗼𝗱𝗲 : ${XeonBotInc.public ? 'Public' : `Self`}
+𝗛𝗼𝘀𝘁 𝗡𝗮𝗺𝗲 : ${os.hostname()}
+𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
+
+𝙏𝙄𝙈𝙀 𝙄𝙉𝙁𝙊 ⌚
 │𝗧𝗶𝗺𝗲 : ${xtime}
 │𝗗𝗮𝘁𝗲 : ${xdate}
 └┬────────────┈ ⳹
-   │✑  Please Type The *MENU*
-   │✑  Given *BELOW*
+TYPE MENU GET COMMAND LIST
 ┌└─────────────┈ ⳹
-│❏.allmenu
-│❏.downloadmenu
-│❏.funmenu
-│❏.aimenu
-│❏.groupmenu
-│❏.ownermenu
-│❏.photooxymenu
-│❏.ephoto360menu
-│❏.animemenu
-│❏.nsfwmenu
-│❏.randomphotomenu
-│❏.randomvideomenu
-│❏.stickermenu
-│❏.databasemenu
-│❏.stalkermenu
-│❏.bugmenu
-│❏.othermenu
+│allmenu
+│downloadmenu
+│funmenu
+│aimenu
+│groupmenu
+│ownermenu
+│photooxymenu
+│ephoto360menu
+│animemenu
+│nsfwmenu
+│randomphotomenu
+│randomvideomenu
+│stickermenu
+│databasemenu
+│stalkermenu
+│bugmenu
+│othermenu
 └─────────────────┈ ⳹`
             let ments = [ownernya, me, mark]        
            XeonBotInc.sendMessage(from, { 
@@ -2165,7 +2158,7 @@ mentionedJid:[sender],
 }
 break
 case 'repo': case 'repository': {
-	const githubRepoURL = 'https://github.com/DGXeon/CheemsBot-MD8'
+	const githubRepoURL = 'https://github.com/Alexkingmd/testmy'
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/)
     const response = await axios.get(`https://api.github.com/repos/${username}/${repoName}`)
